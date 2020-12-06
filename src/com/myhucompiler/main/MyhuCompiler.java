@@ -38,6 +38,7 @@ public class MyhuCompiler {
 					System.out.println(input);
 					Lexer lexer = LexAnalyzer.analyze(input, counter, variableMap);
 					List<String> tokenList = lexer.getTokenList();
+					System.out.println(tokenList);
 					counter = lexer.getCounter();
 					LineResult lineResult = SyntaticAnalyzer.analyze(tokenList, floatVariables, intVariables, variableMap);
 					String[] tokens = tokenList.toArray(new String[0]);
@@ -58,7 +59,7 @@ public class MyhuCompiler {
 	      if("mh".equals(extension)) {
 	    	  isMhFile = true;
 	      } else {
-	    	  System.out.println("Invalid File!. File extension Must be b'mh'");
+	    	  System.out.println("Invalid File!. File extension Must be '.mh'");
 	      }
 	     
 	    }

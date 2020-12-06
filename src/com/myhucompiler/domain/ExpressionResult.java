@@ -18,10 +18,4 @@ public class ExpressionResult {
 		this.result = result;
 	}
 
-	/*
-	 * public int getExpressionType() { return expressionType; }
-	 * 
-	 * public void setExpressionType(int expressionType) { this.expressionType =
-	 * expressionType; }
-	 */
 }

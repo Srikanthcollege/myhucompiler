@@ -27,14 +27,7 @@ public class LexAnalyzer {
 
 	public static Lexer analyze(String input, int counter, Map<Integer, String> variableMap) {
 		Lexer lexer = new Lexer();
-		/*
-		tokenList:
-		KEYWORD :: Supported keywords
-		IDENTIFIER :: Supported identifier/variable
-		OPERATOR :: Supported Operators
-		SYMBOL :: Supported Symbols
-		CONSTANT :: Supported numeric constant
-		*/
+		
 		List<String> tokenList = new LinkedList<>();
 		StringTokenizer st = new StringTokenizer(input, " =+-*/(){},;", true);
 		String token = new String();
