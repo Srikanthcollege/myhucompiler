@@ -65,8 +65,16 @@ Requirements
 
 * Java >= 1.8.0.0
 
-Installation
-============
+Installation & Instructions to execute the code
+================================================
 
-  Clone the Repository 
+First clone the code using
+		git clone https://github.com/Srikanthcollege/myhucompiler.git
+
+	Import the code into eclipse (File -> Import -> General -> Existing projects into workspace).
+
+	Run the MyhuCompiler,java by passing parametr of file path (Which need to valid and have extension as .mh)
+
+	As of now, On console we can see the result of Syntax Analysis and Semantic Analysis.
+
     
